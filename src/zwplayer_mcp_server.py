@@ -78,7 +78,7 @@ def zwplayer_base() -> str:
         <script type="text/javascript">
             var info = {
                 playerElm: 'mse',
-                url: 'https://ckplayer-video.oss-cn-shanghai.aliyuncs.com/mp4/1_1920x1080.mp4',
+                url: 'https://d2zihajmogu5jn.cloudfront.net/elephantsdream/ed_hd.mp4',
                 videostyle: "width:100%;height:80%;",
             };
             new ZWPlayer(info);
@@ -99,7 +99,7 @@ def zwplayer_width_height() -> str:
         <script type="text/javascript">
             var info = {
                 playerElm: 'mse',
-                url: 'https://ckplayer-video.oss-cn-shanghai.aliyuncs.com/mp4/1_1920x1080.mp4',
+                url: 'https://d2zihajmogu5jn.cloudfront.net/elephantsdream/ed_hd.mp4',
                 videostyle: "width:100%;height:80%;",
             };
             new ZWPlayer(info);
@@ -119,7 +119,7 @@ def zwplayer_fluid() -> str:
         <script type="text/javascript">
             var info = {
                 playerElm: 'video_contain',
-                url: 'https://ckplayer-video.oss-cn-shanghai.aliyuncs.com/mp4/1_1920x1080.mp4',
+                url: 'https://d2zihajmogu5jn.cloudfront.net/elephantsdream/ed_hd.mp4',
                 fluid: true,
                 ratio:"16:9",
             };
@@ -140,7 +140,7 @@ def zwplayer_poster() -> str:
 			<script type="text/javascript">
 			var info = {
 				playerElm: 'mse',
-				url: 'https://ckplayer-video.oss-cn-shanghai.aliyuncs.com/mp4/1_1920x1080.mp4',
+				url: 'https://d2zihajmogu5jn.cloudfront.net/elephantsdream/ed_hd.mp4',
 				poster: 'https://aigc-image.bj.bcebos.com/miaobi/5mao/b%276buR5oKf56m65pmu6YCa54mI5ZKM6LGq5Y2O54mI5Yy65YirXzE3MjQ4NjE5NzUuMzcyNjEzXzE3MjQ4NjE5NzYuMTI0MTA0%27/1.png',
 				logo: {
 					icon: 'https://www.ckplayer.com/public/static/ckplayer-x3/css/images/logo.png',
@@ -186,7 +186,7 @@ def zwplayer_subtitle() -> str:
 			var info = {
 				playerElm: '#mse',
 				autoplay: true,
-				url: 'https://ckplayer-video.oss-cn-shanghai.aliyuncs.com/mp4/1_1920x1080.mp4',
+				url: 'https://d2zihajmogu5jn.cloudfront.net/elephantsdream/ed_hd.mp4',
 			};
 			//创建一个播放器实例
 			var player1 = new ZWPlayer(info);
@@ -280,7 +280,7 @@ def zwplayer_bullet_comments() -> str:
 
     function onload() {
          
-        var url = 'https://ckplayer-video.oss-cn-shanghai.aliyuncs.com/mp4/1_1920x1080.mp4';
+        var url = 'https://d2zihajmogu5jn.cloudfront.net/elephantsdream/ed_hd.mp4';
         // url = 'http://192.168.1.136:1966/live/stream007.rtc';
 
          
@@ -618,7 +618,7 @@ def zwplayer_chapter() -> str:
 				playerElm: '#mse',
 				autoplay: true,
 				chapterButton: true,
-				url: 'https://ckplayer-video.oss-cn-shanghai.aliyuncs.com/mp4/1_1920x1080.mp4'
+				url: 'https://d2zihajmogu5jn.cloudfront.net/elephantsdream/ed_hd.mp4'
 			};
 			//创建一个播放器实例
 			var player1 = new ZWPlayer(info);
@@ -780,7 +780,7 @@ def zwplayer_autoplay() -> str:
             var videoObject = {
                 playerElm: '#mse',
                 autoplay: true,
-                url: 'https://ckplayer-video.oss-cn-shanghai.aliyuncs.com/mp4/1_1920x1080.mp4',
+                url: 'https://d2zihajmogu5jn.cloudfront.net/elephantsdream/ed_hd.mp4',
 
             };
             new ZWPlayer(videoObject);
@@ -806,7 +806,7 @@ def zwplayer_small_window() -> str:
 			var videoObject = {
 				playerElm: '#mse',
 				autoplay: true,
-				url: 'https://ckplayer-video.oss-cn-shanghai.aliyuncs.com/mp4/1_1920x1080.mp4',
+				url: 'https://d2zihajmogu5jn.cloudfront.net/elephantsdream/ed_hd.mp4',
 				autoSmallWindow: true,
 			};
 			new ZWPlayer(videoObject);
@@ -850,7 +850,7 @@ def zwplayer_seek() -> str:
 			var videoObject = {
 				playerElm: '#mse',
 				autoplay: true,
-				url: 'https://ckplayer-video.oss-cn-shanghai.aliyuncs.com/mp4/1_1920x1080.mp4',
+				url: 'https://d2zihajmogu5jn.cloudfront.net/elephantsdream/ed_hd.mp4',
 
 			};
 			var player = new ZWPlayer(videoObject);
