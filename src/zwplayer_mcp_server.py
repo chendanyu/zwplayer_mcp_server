@@ -605,13 +605,10 @@ def zwplayer_chapter() -> str:
 							},
 							"image": null
 						},
-
-
 					];
 					player1.setChapters(json);
 				}
 			}
-
 
 			// 定义一个js对象info ，用来做为ZWPlayer 的构造参数
 			var info = {
@@ -622,8 +619,6 @@ def zwplayer_chapter() -> str:
 			};
 			//创建一个播放器实例
 			var player1 = new ZWPlayer(info);
-
-
 			setTimeout(onLoadChapters, 300);
 		</script>
         
@@ -771,7 +766,11 @@ def zwplayer_adaptive_bitrate() -> str:
 
 @mcp.tool()
 def zwplayer_autoplay() -> str:
-    """zwplayer 自动播放"""
+    """zwplayer 支持体验最好的自动播放：
+       **1.  检测是否能自动播放声音：能则正常自动播放，不能则设置静音自动播放（`autoplay: true + muted: true`），让画面动起来。**
+       **2.  检测到静音播放时，立刻、清晰、友好地告诉用户原因。**
+       **3.  给用户一个巨大、诱人、一点就灵的“打开声音”按钮！**
+    """
     script = """
         <script type="text/javascript" charset="utf-8" src="./zwplayer/zwplayer.js"></script>
         <div class="video" id="mse" style="width: 1280px;height: 720px; margin: 0 auto;"></div>
@@ -781,11 +780,8 @@ def zwplayer_autoplay() -> str:
                 playerElm: '#mse',
                 autoplay: true,
                 url: 'https://d2zihajmogu5jn.cloudfront.net/elephantsdream/ed_hd.mp4',
-
             };
             new ZWPlayer(videoObject);
-
-
         </script>
         
         demo: <a href="unit11_autoplay.html">zwplayer支持自动播放</a>
