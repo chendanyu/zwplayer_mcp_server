@@ -17,7 +17,7 @@ settings=Settings()
 
 settings.debug = True
 settings.host = "0.0.0.0"
-settings.port = 30002
+settings.port = 8000
 # set
 mcp.settings=settings
 
