@@ -26,7 +26,7 @@ python -m zwplayer_mcp_server
 
 点击右上角的齿轮图标，点击左侧菜单项的“MCP设置”，如下图所示：
 
-![MCP设置](images\mcp_setting.png)
+![MCP设置](images/mcp_setting.png)
 
 名称：zwplayer_mcp_server
 
@@ -49,7 +49,7 @@ URL: http://127.0.0.1:8000/mcp
 
 选择模型服务，选择深度求索，输入API密钥，此密钥从https://platform.deepseek.com/api_keys获取。
 
-![设置模型](images\model.png)
+![设置模型](images/model.png)
 
 把默认的硅基流动的模型取消掉。
 
@@ -59,12 +59,13 @@ URL: http://127.0.0.1:8000/mcp
 
 在对话框，选择要用的mcp服务。
 
-![选择mcp服务](images\select_mcp.png)
+![选择mcp服务](images/select_mcp.png)
 
 
 
-![选择mcp服务](images\select_mcp_server.png)
+![选择mcp服务](images/select_mcp_server.png)
 
 然后输入提示词，比如：麻烦你给我介绍一下zwplayer
 
-![MCP工具调用](images\mcp_call.png)
+
+![MCP工具调用](images/mcp_call.png)
